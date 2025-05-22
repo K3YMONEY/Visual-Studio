@@ -33,6 +33,14 @@ print(scores)
 #print first five scores
 print(scores[0:6])
 
+#create a new list of students with scores > 80 using if loop function
+high_scores = []
+
+for score in scores:
+    if score > 80:
+        high_scores.append(score)
+
+print(high_scores)
 
 
 
